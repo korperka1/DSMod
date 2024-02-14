@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/hi/korperka/dsmod/entity/custom/froggy/FroggyEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/data/dsmod/dialog/test_dialog.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/data/dsmod/quest/fill_quest.json" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/data/dsmod/quest/test_quest.json" charset="windows-1251" />
+  </component>
+</project>

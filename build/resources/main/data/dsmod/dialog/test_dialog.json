@@ -1,0 +1,107 @@
+{
+  "conversationID": "dsmod.test_dialog",
+  "dialog": [
+    {
+      "id": 0,
+      "dialogText": "Здравствуй, путешественник! Можно попросить тебя о помощи?",
+      "requirements": {
+        "type": "QUEST",
+        "quest_id": "dsmod.test_quest",
+        "requirement_status": "NOT_OBTAINED"
+      },
+      "options": [
+        {
+          "text": "Конечно",
+          "type": "OPEN_DIALOG",
+          "global_id": "dsmod.test_dialog",
+          "dialog": 1
+        },
+        {
+          "text": "У меня нет времени",
+          "type": "OPEN_DIALOG",
+          "global_id": "dsmod.test_dialog",
+          "dialog": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "dialogText": "Спасибо, мне нужно собрать 10 яиц",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "Хорошо, скоро приступлю",
+          "type": "ADD_QUEST",
+          "dialog": null,
+          "quest_id": "dsmod.test_quest"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dialogText": "Хорошо, если ты передумаешь, то я всегда буду тут",
+      "requirements": {
+      },
+      "options": [
+        {
+          "text": "Хорошо",
+          "type": "CLOSE_DIALOG"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "dialogText": "Здравствуй снова, всё таки решил помочь мне?",
+      "requirements": {
+        "type": "DIALOG",
+        "dialog_id": 2,
+        "requirement_status": "READ"
+      },
+      "options": [
+        {
+          "text": "Да, можешь повторить условия?",
+          "type": "OPEN_DIALOG",
+          "global_id": "dsmod.test_dialog",
+          "dialog": 1
+        },
+        {
+          "text": "Нет",
+          "type": "OPEN_DIALOG",
+          "global_id": "dsmod.test_dialog",
+          "dialog": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "dialogText": "Здравствуй, как ты продвигаешься в своей задаче?",
+      "requirements": {
+        "type": "QUEST",
+        "quest_id": "dsmod.test_quest",
+        "requirement_status": "IN_PROGRESS"
+      },
+      "options": [
+        {
+          "text": "Скоро будет готово!",
+          "type": "CLOSE_DIALOG"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "dialogText": "Спасибо за помощь, возьми свою награду!",
+      "requirements": {
+        "type": "QUEST",
+        "quest_id": "dsmod.test_quest",
+        "requirement_status": "COMPLETED"
+      },
+      "options": [
+        {
+          "text": "Спасибо!",
+          "type": "CLOSE_DIALOG"
+        }
+      ]
+    }
+  ]
+}

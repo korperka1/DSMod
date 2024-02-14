@@ -1,0 +1,28 @@
+{
+  "id": "fill_quest",
+  "title": "Собрать 10 яиц!",
+  "hasTimeLimit": false,
+  "timeLimitInSeconds": 0,
+  "goals": [
+    {
+      "type": "COLLECT",
+      "target": "minecraft:egg",
+      "amount": 10
+    }
+  ],
+  "rewards": [
+    {
+      "type": "ITEM",
+      "tag": "minecraft:apple",
+      "amount": 20
+    }
+  ],
+  "requirements": [
+    {
+      "type": "XP",
+      "requirements_min": -1,
+      "requirements_max": 2147483646
+    }
+  ],
+  "description": "Задание от жабы"
+}

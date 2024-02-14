@@ -1,0 +1,26 @@
+{
+  "temperature": 0.8,
+  "downfall": 0,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 7864288,
+    "fog_color": 9568079,
+    "water_color": 4187306,
+    "water_fog_color": 340520,
+    "grass_color": 28507,
+    "foliage_color": 30545,
+    "grass_color_modifier": "none",
+    "music": {
+      "sound": "dsmod:spawn_music",
+      "min_delay": 100,
+      "max_delay": 200,
+      "replace_current_music": true
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

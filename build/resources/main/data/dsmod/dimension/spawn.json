@@ -1,0 +1,18 @@
+{
+  "type": "dsmod:spawn_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "dsmod:spawn",
+      "layers": [
+        {
+          "block": "minecraft:air",
+          "height": 256
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

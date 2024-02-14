@@ -1,0 +1,18 @@
+{
+  "froggy_voice": {
+    "category": "master",
+    "subtitle": "dsmod.froggy_voice",
+    "sounds": [
+      "dsmod:froggy_voice"
+    ]
+  },
+  "spawn_music": {
+    "category": "music",
+    "subtitle": "dsmod.spawn_music",
+    "sounds": [
+      "dsmod:spawn_ambient1",
+      "dsmod:spawn_ambient2",
+      "dsmod:spawn_ambient3"
+    ]
+  }
+}

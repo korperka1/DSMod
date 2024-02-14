@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dsmod
+Specification-Vendor: korperka
+Specification-Version: 1
+Implementation-Title: DSMod
+Implementation-Version: hi.korperka
+Implementation-Vendor: korperka
+Implementation-Timestamp: 2024-01-19T21:36:26+0600
+
